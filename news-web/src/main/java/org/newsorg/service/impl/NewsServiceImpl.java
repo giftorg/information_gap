@@ -53,4 +53,9 @@ public class NewsServiceImpl implements NewsService {
         return newsRepository.findByCategory(category,pageRequest);
     }
 
+    @Override
+    public List<News> query(String key) {
+        return null;
+    }
+
 }

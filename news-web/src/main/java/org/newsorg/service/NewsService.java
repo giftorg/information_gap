@@ -24,5 +24,5 @@ public interface NewsService {
     Page<News> findByCategoryQuery(String category,Integer page,Integer size);
 
 
-
+    List<News> query(String key);
 }
