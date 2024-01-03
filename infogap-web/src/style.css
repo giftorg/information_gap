@@ -1,0 +1,32 @@
+:root,
+body {
+    padding: 0;
+    margin: 0;
+
+    --back-color: #fafafa;
+    --white: #fff;
+}
+
+#app {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: auto;
+
+    background: var(--back-color);
+}
+
+.container {
+    width: 70%;
+    min-width: 1200px;
+    margin: auto;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
